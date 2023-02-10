@@ -1,0 +1,32 @@
+.title {
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    align-items: center;
+    text-align: center;
+    color: #151515;
+    &_promo {
+        text-align: start;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 80px;
+        align-items: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+
+.subtitle {
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #777777;
+}

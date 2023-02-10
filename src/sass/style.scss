@@ -1,0 +1,23 @@
+@import 'libs/fonts';
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+
+* {
+    box-sizing: border-box;
+    font-family: 'ProximaNova';
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    overflow: hidden;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/services';
+@import 'blocks/footer-block';

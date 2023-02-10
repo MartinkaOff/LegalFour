@@ -1,0 +1,47 @@
+.header {
+    height: 98px;
+    margin-top: 13px;
+    &__wrapper {
+        align-items: baseline;
+        padding-top: 13px;
+        display: flex;
+    }
+    &__logo {
+        display: inline-block;
+        margin-right: 59px;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        &-link {
+            list-style: none;
+            margin-right: 24px;
+
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            text-align: right;
+            text-transform: uppercase;
+            color: #151515;
+        }
+    }
+    &__tel {
+        position: relative;
+        margin-left: 48px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #151515;
+        &:before {
+            left: -20%;
+            position: absolute;
+            content: url('../../icons/header/tel.svg');
+        }
+    }
+}
