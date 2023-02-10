@@ -11,7 +11,6 @@
 }
 
 .container {
-    /* overflow: hidden; */
     width: 1250px;
     margin: 0 auto;
 }
@@ -32,3 +31,5 @@
 @import 'blocks/questions';
 @import 'blocks/address';
 @import 'blocks/footer';
+
+@import 'blocks/media';

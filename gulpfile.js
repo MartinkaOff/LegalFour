@@ -86,7 +86,7 @@ gulp.task('fonts', function () {
 gulp.task("watch", () => {
     browsersync.init({
 		server: "./dist/",
-		port: 4000,
+		port: 3000,
 		notify: true
     });
     
