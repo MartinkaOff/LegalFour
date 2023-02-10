@@ -1,0 +1,19 @@
+.scheme {
+    padding-top: 80px;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    &__item {
+        width: 280px;
+        &-name {
+            margin-top: 24px;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: var(--main-color);
+        }
+    }
+}

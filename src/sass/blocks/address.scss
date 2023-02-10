@@ -1,0 +1,29 @@
+.address {
+    padding: 80px 0;
+    &__wrapper {
+        display: flex;
+    }
+    &__map {
+        margin-right: 20px;
+    }
+    &__block {
+        padding: 26px 44px 24px 22px;
+        width: 372px;
+        height: 119px;
+        border: 1px solid #D4D4D4;
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #151515;
+        &-title {
+            font-weight: 400;
+            color: #868686;
+            margin-bottom: 9px;
+        }
+        a {
+            color: #151515;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.consultation {
+    height: 600px;
+    background: url('../img/consultation/consultation_bg.jpg') center (center / cover) no-repeat;
+    &__wrapper {
+        height: 34em;
+        padding-top: 150px;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 51px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        margin-top: 17px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31px;
+        color: var(--promo-subtitle-color);
+    }
+    &__form {
+        margin-top: 40px;
+    }
+    &__input {
+        margin-right: 20px;
+        padding: 24px;
+        width: 283px;
+        height: 68px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        border: none;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+        &:focus {
+            outline: none;
+        }
+    }
+    input::-webkit-input-placeholder {
+        color: #FFFFFF;
+    }
+    &__submit {
+        border: none;
+        background: none;
+        &:focus {
+            outline: none;
+        }
+    }
+    &__contact {
+        position: relative;
+        display: flex;
+        margin-top: 40px;
+        &-text {
+            margin-right: 21px;
+            margin-left: 5px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.2em;
+            color: #A5A5A5;
+        }
+        &-arrow {
+            margin-left: 21px;
+        }
+        &-circle {
+            position: absolute;
+            left: 24%;
+            top: -21px;
+        }
+    }
+}

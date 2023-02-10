@@ -11,7 +11,7 @@
 }
 
 .container {
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 1250px;
     margin: 0 auto;
 }
@@ -21,3 +21,14 @@
 @import 'blocks/title';
 @import 'blocks/services';
 @import 'blocks/footer-block';
+@import 'blocks/too';
+@import 'blocks/advantages';
+@import 'blocks/cases';
+@import 'blocks/scheme';
+@import 'blocks/reviews';
+@import 'blocks/consultation';
+@import 'blocks/necessity';
+@import 'blocks/licenses';
+@import 'blocks/questions';
+@import 'blocks/address';
+@import 'blocks/footer';

@@ -11,8 +11,11 @@
         font-weight: 700;
         font-size: 70px;
         line-height: 80px;
-        align-items: center;
         text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &_consultation {
+        text-align: start;
         color: #FFFFFF;
     }
 }
@@ -20,6 +23,7 @@
 .subtitle {
     display: block;
     margin: 0 auto;
+    margin-top: 17px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;

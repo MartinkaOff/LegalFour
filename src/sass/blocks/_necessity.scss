@@ -1,0 +1,30 @@
+.necessity {
+    padding-top: 80px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        width: 591px;
+        &-title {
+            font-weight: 600;
+            font-size: 42px;
+            line-height: 51px;
+            color: var(--main-color);
+        }
+        &-descr {
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            color: #666666;
+        }
+        &-director {
+            margin-top: 20px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 26px;
+            color: var(--main-color);
+        }
+    }
+}
